@@ -46,7 +46,7 @@ module.exports = {
         const { name, description, usage, author, aliases, role } =
           targetCommand.config;
         let helpMessage = `${fonts.applyFonts(
-          `╭─❍ 「 ${role === 1 ? "👑 " : ""}${name}} 」`,
+          `╭─❍ 「 ${role === 1 ? "👑 " : ""}${name} 」`,
           "bold",
         )}\n`;
         helpMessage += `${fonts.applyFonts(`│ ✧ DESCRIPTION`, "bold")}\n`;
